@@ -1,0 +1,332 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav h1 {
+    font-family: ubuntu;
+    font-size: 40px;
+    color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.section1 {
+    margin-right: 10%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.plain-text1 {
+    font-family: poppins;
+    font-size: 55px;
+    font-weight: bolder;
+    color: white;
+}
+@media (max-width: 1350px) {
+    .plain-text1 p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+}
+@media (max-width: 1350px) {
+    .buttons button {
+        font-size: small;
+
+    }
+}
+.dog-img1 {
+    max-width: 260px;
+    max-height: 950px;
+    transform: rotate(25deg);
+    object-fit: contain;
+    margin-top: 25px;
+ 
+}
+@media (max-width: 1350px) {
+    .dog-img1 {
+        max-width: 120px;
+        max-height: 350px;
+        transform: none;
+    }
+}
+.dog-mock-up {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-right: 18%;
+}
+.folder1 {
+    background-color: rgb(250, 90, 111);
+    max-height: 600px;
+    overflow: hidden;
+}
+nav .menu {
+    padding-top: 45px;
+}
+nav .menu a {
+    text-decoration: none;
+    color: rgb(241, 193, 196);
+    /* color: rgb(238, 231, 231); */
+    font-family: poppins;
+    font-size: large;
+    font-weight: bold;
+}
+nav .menu a:hover {
+    color: rgb(250, 228, 228);
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin-right:300px ; */
+    /* padding-bottom: 100px ;
+    padding-left: 20%; */
+}
+.buttons button {
+    padding: 12px 35px 12px 35px;
+    border-radius: 8px;
+}
+.buttons .btn1 {
+    background-color: rgb(46, 45, 45);
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+}
+.buttons .btn2 {
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    font-family: poppins;
+    background-color: rgb(250, 90, 111);
+}
+.buttons .btn1:hover {
+    background-color: rgb(32, 30, 30);
+}
+.buttons .btn2:hover {
+    background-color: white;
+    color: black;
+
+
+}
+.folder2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 150px 80px 150px 80px;
+
+}
+
+@media (max-width: 1350px) {
+    .folder2 {
+        flex-direction: column;
+    }
+}
+.sponsor-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.sponsor-link img {
+    max-width: 200px;
+}
+@media (max-width: 1350px) {
+    .sponsor-link img{
+        max-width: 75px;
+    }
+}
+.folder3 {
+    padding: 150px 80px 150px 80px;
+    background-color: #ef8172;
+}
+.dog-img2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.dog-img2 img {
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 250px;
+}
+.folder4 {
+    padding: 100px 0px 100px 0px;
+}
+.plain-text2 {
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 20px;
+}
+.folder4 span {
+    font-weight: lighter;
+    font-size: medium;
+}
+.first-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+@media (max-width: 1350px) {
+    .first-table {
+        flex-direction: column;
+    }
+}
+.first-table button {
+    background-color: rgb(73, 72, 72);
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+    padding: 12px 30px 12px 30px;
+    border-radius: 8px;
+}
+.first-table .sgn1 {
+    background-color: white;
+    color: rgb(73, 72, 72);
+    font-size: 20px;
+    font-family: poppins;
+    padding: 12px 30px 12px 30px;
+    border-radius: 8px;
+    border: 1px solid black;
+
+}
+.first-table button:hover {
+    background-color: rgb(59, 56, 56);
+}
+.first-table .sgn1:hover {
+    color: white;
+    background-color:rgb(59, 56, 56) ;
+}
+.chihuahua {
+    display: grid;
+    grid-template-rows:  70px auto auto auto;
+    border-radius: 10px;
+}
+.chihuahua div {
+    padding-left:60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    
+}
+.labrador {
+    display: grid;
+    grid-template-rows: 70px auto auto auto;
+}
+.labrador div {
+    padding-left:60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    
+}
+.mastiff {
+    display: grid;
+    grid-template-rows: 70px auto auto auto auto;
+} 
+.mastiff div {
+    padding-left:60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    
+}
+.dog1 {
+    background-color: rgb(245, 244, 244);
+}
+.dog2 {
+    background-color: rgb(245, 244, 244);
+
+}
+.dog3 {
+    background-color: rgb(245, 244, 244);
+
+}
+.folder5 {
+    background-color: rgb(250, 90, 111);
+    padding: 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.download-icon .btn3{
+    padding: 12px 35px 12px 35px;
+    border-radius: 8px;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+}
+.download-icon .btn4 {
+    padding: 12px 35px 12px 35px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: rgb(250, 90, 111);
+    font-family: poppins;
+}
+.download-icon .btn3:hover {
+    background-color: rgb(32, 30, 30);
+}
+.download-icon .btn4:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.folder5 h1 {
+    font-family: poppins;
+    font-weight: bolder;
+    color: white;
+    font-size: 60px;
+}
+.folder6 {
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+.fb {
+    max-width: 40px;
+    max-height: 60px;
+}
+.twit {
+    max-width: 40px;
+    max-height: 60px;
+}
+.insta {
+    max-width: 55px;
+    max-height: 85px;
+}
+.email {
+    max-width: 40px;
+    max-height: 60px;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40%;
+    padding-left: 40%;
+}
+.links a {
+    text-decoration: none;
+    color: black;
+}
+.folder6 span {
+    color: blue;
+}
+.folder6 p {
+    font-family: sans-serif;
+}
